@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .input-container {
+ 
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+}
+.time-date-container,
+.task-container {
+  width: 1000px;
+  box-sizing: border-box;
+  height: 40px;
+  margin: 10px auto;
+} */
+.to-do-form {
+  width: 1000px;
+  min-height: 120px;
+  box-shadow: 2px 1px 8px 0px lightskyblue;
+  margin: 15px auto;
+  /* border-radius: 24px; */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.time-date-container {
+  display: flex;
+}
+
+.time-date-container,
+.task-container,
+.button-holder {
+  flex: 1;
+  /* margin-bottom: 10px; */
+  padding: 5px;
+}
+
+.time,
+.date {
+  flex: 1;
+}
+
+.task {
+  width: 100%;
+}
+
+.time {
+  border-right: 1px solid black !important;
+}
+
+.submit-btn {
+  width: 17%;
+  background-color: cornflowerblue;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+.task,
+.time,
+.date,
+.submit-btn {
+  min-height: 50px;
+  font-size: 1.2rem;
+  border: none;
+}
